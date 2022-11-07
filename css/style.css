@@ -157,6 +157,8 @@ p {
 .hero {
   background: var(--hero--bg--color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -168,6 +170,10 @@ p {
   text-transform: uppercase;
 
   margin-bottom: 30px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+ 
 }
 
 .hero-button {
@@ -218,6 +224,7 @@ p {
 
 .doing {
   text-align: center;
+  padding-top: 0;
 }
 
 .doing-list {
@@ -264,8 +271,9 @@ p {
   margin-bottom: 50px;
 }
 
-.worker-photo {
-  margin-bottom: 30px;
+.worker-about {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-name {
@@ -282,13 +290,14 @@ p {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary--color);
-  margin-bottom: 30px;
 }
 
 /* footer */
 
 .footer {
   background: var(--hero--bg--color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -308,6 +317,7 @@ p {
   font-style: normal;
   letter-spacing: 0.03em;
   color: var(--hero--title--color);
+  line-height: calc(24/14);
 
   display: inline-block;
   margin-bottom: 9px;
@@ -317,6 +327,7 @@ p {
   font-style: normal;
   letter-spacing: 0.03em;
   color: var(--footer--text-color);
+  line-height: calc(24/14);
 
   display: inline-block;
   margin-bottom: 9px;
@@ -371,7 +382,6 @@ p {
 
   margin-left: 24px;
   margin-bottom: 4px;
-  padding-top: 20px;
 }
 
 .portfolio-text {
@@ -380,10 +390,11 @@ p {
   letter-spacing: 0.03em;
 
   margin-left: 24px;
-  margin-bottom: 20px;
 }
 
 .card-border {
   border: 1px solid var(--border-color);
   border-top: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
